@@ -36,7 +36,7 @@
 
 1. **克隆项目**
 ```bash
-git clone <仓库地址>
+git clone https://github.com/erlingmijiang/skill_translation_and_review.git
 cd skill_translation_and_review
 ```
 
@@ -53,7 +53,7 @@ copy env.example .env
 ```env
 LLM_API_KEY=你的API密钥
 LLM_BASE_URL=模型API地址
-LLM_MODEL_NAME
+LLM_MODEL_NAME=模型名
 ```
 
 ### 运行程序
@@ -85,13 +85,9 @@ skill_translation_and_review/
 ├── env.example              # 环境变量示例
 ├── AGENTS.md                # 智能体开发规范
 ├── 处理结果.log              # 运行日志文件
-├── prompt/                  # 提示词目录
-│   ├── translate_sys_prompt.txt  # 翻译系统提示词
-│   └── review_sys_prompt.txt     # 审查系统提示词
-└── test/                    # 测试用例目录
-    ├── android-to-harmonyos-migration-workflow/  # 安卓迁移技能示例
-    ├── arxiv-search/                          # 文献搜索技能示例
-    └── api2cli/                               # API转CLI技能示例
+└── prompt/                  # 提示词目录
+    ├── translate_sys_prompt.txt  # 翻译系统提示词
+    └── review_sys_prompt.txt     # 审查系统提示词
 ```
 
 ## 🛡️ 安全提示
